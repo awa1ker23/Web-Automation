@@ -11,9 +11,10 @@ public class NewAccount {
 		String name = "Anthony Test";
 		String email = "anthony@test.com";
 		String phone = "078254499098";
-		String gender;
 		String country = "India";
 		String password = "Password@1234";
+
+		String gender;
 		String weeklyEmail;
 		String monthlyEmail;
 		String occassional; 
