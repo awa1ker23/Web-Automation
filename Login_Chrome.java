@@ -33,7 +33,11 @@ public class Login_Chrome {
 //		verify the title of the page(name displayed on tab
         String pageTitle = driver.getTitle();
         	if (pageTitle.equals("SDET Training | Account Management")) {
+        		
         		System.out.println("Page title test passed");
+        	}
+    		else {
+    			System.out.print("I can't believe this has worked");
         	}
 //      7. Close the broswer
     	driver.close();
